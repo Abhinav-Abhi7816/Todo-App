@@ -1,0 +1,54 @@
+
+#text-con2{
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.338);
+    width: 650px  ;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    place-items:center;
+    font-size: x-large;
+    padding: 10px   ;
+    background: white;
+}
+.com-btn{
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    color:orangered;
+    margin: 0 auto;
+    padding: 0px;
+    transition: ease 0.5s;
+}
+.com-btn:hover{
+    color:darkturquoise;
+    transition: ease 0.5s;
+}
+#text-para{
+    outline-color: white;
+    height: fit-content;
+    word-wrap: break-word;
+    max-width: 550px;
+    padding: 3px 20px;
+    list-style:circle;
+}
+.btn-con
+{
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+#delete-btn:hover{
+    color:red;
+}
+#edit-btn{
+    color: dodgerblue;
+}
+#edit-btn:hover{
+    color: rgb(3, 66, 129);
+}
