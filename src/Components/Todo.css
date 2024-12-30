@@ -89,3 +89,34 @@ textarea{
 .displayClass{
     display: none;
 }
+
+@media only screen and (max-width:750px) {
+
+
+    #text-id{
+        height: 40px;
+        max-width: 250px;
+        padding: 5px 7px;
+        
+    }
+    #add-btn{
+        height: 40px;
+        padding: 5px 7px;
+        
+    }
+    #text-con{
+        height: fit-content;   
+    }
+    nav{
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+    }
+    body{
+        background: rgb(211, 232, 239);
+    }
+    .todos-list{
+        padding:20px 16px;
+    }
+}

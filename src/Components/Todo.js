@@ -90,7 +90,8 @@ function Todo() {
    
   return (
     <>
-    <div className="content"><nav>
+    <div className="content">
+    <nav>
     <h1>TODO LIST</h1>
     </nav>
     <div className="todos-list" id="todo-list-id">

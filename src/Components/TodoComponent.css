@@ -2,7 +2,7 @@
 #text-con2{
     border-radius: 10px;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.338);
-    width: 650px  ;
+    width: 650px ;
     height: fit-content;
     display: flex;
     overflow: hidden;
@@ -51,4 +51,19 @@
 }
 #edit-btn:hover{
     color: rgb(3, 66, 129);
+}
+@media only screen and (max-width:750px) {
+
+    #text-con2{
+        max-width:300px;
+        font-size: medium;
+        padding: 4px 7px;
+    }
+    #text-para{
+        max-width: 240px;
+    }
+    .com-btn{
+        height: 20px;
+        width: fit-content;
+    }
 }
